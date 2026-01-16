@@ -1,0 +1,186 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column; /* for created by ashu */
+    width: 100%;
+    height: 100%;
+    background-color: rgb(152, 193, 152);
+}
+#panel{
+    padding: 0px, 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+}
+#ptop{
+    color:#fff;
+    padding: 0px 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(61, 124, 61);
+}
+.elem{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    font-size: 25px ;
+    font-weight: 600;
+    color: rgb(44, 181, 44);
+    padding: 10px 20px;
+    background-color: #fff; 
+    border-radius: 5px;
+}
+
+#pbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px;
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: rgba(53, 141, 85, 0.375);
+}
+.bubble{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: rgb(82, 172, 82);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+
+.bubble {
+    transition: transform 0.2s ease;
+  }
+
+
+.bubble:hover{
+    background-color: rgb(79, 137, 79);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+#ad{
+     color: rgba(19, 46, 25, 0.326);
+      }
+
+
+
+
+
+
+
+
+
+
+/*  for Responsive */   
+
+@media (max-width: 768px) {
+    #panel {
+        width: 100%;
+        height: 90%;
+    }
+
+    #ptop {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+        gap: 15px;
+    }
+
+    .elem h2 {
+        font-size: 16px;
+    }
+
+    .box {
+        font-size: 18px;
+        padding: 8px 15px;
+    }
+
+    .bubble {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    #ptop {
+        padding: 10px 5px;
+    }
+
+    .box {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    .bubble {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    #panel {
+        height: 95%;
+    }
+}
+
+
+
+
+
+
+
+
+#resetButton {
+    display: inline-block;
+    padding: 1px 2px;
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(82, 172, 82); /* Matches your theme */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Smooth transitions */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+#resetButton:hover {
+    background-color: rgb(79, 137, 79); /* Darker green on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+
+
+
+
+
