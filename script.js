@@ -111,7 +111,7 @@ function scoreCount() {
 
 // All Function Calling
 
-makeBubble();
+makeBubble(); 
 runTimer();
 Hit();
 scoreCount();
