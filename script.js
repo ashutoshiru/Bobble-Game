@@ -116,8 +116,3 @@ runTimer();
 Hit();
 scoreCount();
 highScore()
-  
-
-
-
-
