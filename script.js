@@ -12,7 +12,7 @@ function increScore() {
 // HighScore function
 let total = 0;
 function highScore() {
-  if (count > total) {
+  if (count > total) { 
     total = count;
   }
 
