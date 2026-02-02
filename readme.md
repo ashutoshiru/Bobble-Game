@@ -11,7 +11,7 @@ The goal is simple: **hit the correct number bubble before time runs out!**
 3. Each correct hit gives **+10 points**.
 4. You have **60 seconds** to score as much as possible.
 5. After the timer ends, your **Score** and **High Score** are displayed.
-6. Click **Restart** to play again.
+6. Click **Restart** to play again. 
 
 ---
 
