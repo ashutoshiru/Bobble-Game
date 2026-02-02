@@ -10,7 +10,7 @@ html,body{
 }
 #main{
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: center;    
     flex-direction: column; /* for created by ashu */
     width: 100%;
