@@ -30,6 +30,9 @@ The goal is simple: **hit the correct number bubble before time runs out!**
 - **CSS3**
 - **JavaScript**
 
+##🌐 Live Demo
+https://ashutoshiru.github.io/Bobble-Game/
+
 ## 👨‍💻 Created By
 Ashutosh Kumar  
 GitHub: https://github.com/ashutoshiru
